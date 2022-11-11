@@ -1,0 +1,30 @@
+state_capital = {"Abia": "Umuahia", "Adamawa": "Yola",
+                 "Akwa-Ibom": "Uyo", "Anambra": "Akwa",
+                 "Bauchi": "Bauchi",
+                 "Bayelsa": "Yenagoa", "Benue": "Makurdi",
+                 "Borno State": "Maiduguri", "Cross River": "Calabar",
+                 "Delta": "Asaba", "Ebonyi": "Abakaliki",
+                 "Edo": "Benin", "Ekiti": "Ado Ekiti",
+                 "Enugu": "Enugu",
+                 "Gombe": "Gombe",
+                 "Imo": "Owerri", "Jigawa": "Dutse",
+                 "Kaduna": "Kaduna", "Kano": "Kano",
+                 "Katsina": "Katsina",
+                 "Kebbi": "Birnin Kebbi",
+                 "Kogi": "Lokoja", "Kwara": "Ilorin",
+                 "Lagos": "Ikeja",
+                 "Nasarawa": "Lafia", "Niger": "Minna",
+                 "Ogun": "Abeokuta",
+                 "Ondo": "Akure",
+                 "Osun": "Oshogbo",
+                 "Oyo": "Ibadan",
+                 "Plateau": "Jos",
+                 "Rivers": "Port Harcourt",
+                 "Sokoto": "Sokoto",
+                 "Taraba": "Jalingo",
+                 "Yobe": "Damaturu",
+                 "Zamfara": "Gusau", }
+
+print("Nigeria States and Capitals:")
+for key, value in state_capital.items():
+    print(f"{key} -> {value}")

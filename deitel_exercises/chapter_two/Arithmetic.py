@@ -1,0 +1,6 @@
+first_integer = input("Enter the first integer: ")
+second_integer = input("Enter the second integer: ")
+print("The square of the first integer is", int(first_integer) ** 2)
+print("The square of the second integer is", int(second_integer) ** 2)
+print("The sum of their squares is", ((int(first_integer) ** 2) + (int(second_integer) ** 2)))
+print("The difference of their squares is", ((int(first_integer) ** 2) - (int(second_integer) ** 2)))
